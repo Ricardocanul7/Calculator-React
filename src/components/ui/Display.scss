@@ -1,0 +1,19 @@
+.display-container{
+    display: flex;
+    background: black;
+    width: 320px;
+    height: 100px;
+    justify-content: center;
+    padding: 1rem .8rem;
+    margin: 0;
+
+    input{
+        background: #9FAFAF;
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 5%;
+        font-family: 'VT323', monospace;
+        outline: none;
+    }
+    
+}

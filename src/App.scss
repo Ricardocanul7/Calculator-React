@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sansita+Swashed&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+body{
+  background: linear-gradient(#EFF147, #3FB869) no-repeat center fixed;
+  background-size: cover;
+}

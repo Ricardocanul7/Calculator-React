@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sansita+Swashed&family=Share+Tech&display=swap');
+
+.cal-app{
+    position: relative;
+    top: 8rem;
+    left: calc(50% - 160px);
+    width: fit-content;
+    text-align: center;
+}
+
+.cal-section{
+    
+    .calculator-area{
+        border: 4px solid gray;
+        border-radius: 5px;
+        width: fit-content;
+    }
+}
+
+.title{
+    margin-bottom: 1rem;
+    font-family: 'Share Tech', sans-serif;
+}

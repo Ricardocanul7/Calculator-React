@@ -1,0 +1,25 @@
+$button-size : 80px;
+$primary-color : #29B5F6;
+$secundary-color : #a9e4ff;
+$text-color : white;
+
+.btn-container{
+    border : 0.5px solid black;
+    background: $primary-color;
+    // border-radius: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    height: $button-size;
+    outline: none;
+    width: $button-size;
+    align-items: center;
+    color: $text-color;
+    
+    &:hover{
+        border : 1px solid $secundary-color;
+    }
+
+    &:active{
+        background: $secundary-color;
+    }
+}
